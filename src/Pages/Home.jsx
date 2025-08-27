@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.css";
+import Spline from "@splinetool/react-spline";
+
 // import Spline from "@splinetool/react-spline"; // Optional for 3D hero objects
 
 function Home() {
@@ -24,10 +26,16 @@ function Home() {
 
         <div className="hero-image">
           <div className="image-card">
-            <img
-              src="https://www.iannecor.com/wp-content/uploads/2023/01/website-maintenance.gif"
+              <img
+              src={require("../Pages/work1.gif")}
               alt="CRM Mockup"
             />
+        
+          
+            {/* <img
+              src="https://www.iannecor.com/wp-content/uploads/2023/01/website-maintenance.gif"
+              alt="CRM Mockup"
+            /> */}
           </div>
         </div>
       </section>

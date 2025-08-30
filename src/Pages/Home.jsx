@@ -1,8 +1,5 @@
 import React from "react";
 import "./Home.css";
-import Spline from "@splinetool/react-spline";
-
-// import Spline from "@splinetool/react-spline"; // Optional for 3D hero objects
 
 function Home() {
   return (
@@ -151,9 +148,6 @@ function Home() {
   </div>
 </section>
 
-
-
-
       {/* 💡 Support Section */}
       <section className="support">
         <h2>💡 Dedicated One-to-One Support</h2>
@@ -163,8 +157,45 @@ function Home() {
         </p>
         <button className="btn primary-btn big-btn">📩 Support</button>
       </section>
-    </div>
-  );
+
+    <section className="contact-section">
+      <div className="contact-container">
+        
+        {/* Left Info */}
+        <div className="contact-info">
+          <h2>Get in Touch</h2>
+          <p>
+            Have questions about our CRM services or need support? 
+            Fill out the form and our team will get back to you shortly.
+          </p>
+          <div className="info-details">
+            <p>📍 Erode, Tamil Nadu, India</p>
+            <p>📞 +91 73731 85857</p>
+            <p>✉️ support@cloudtechinnovations.com</p>
+          </div>
+        </div>
+
+        {/* Right Form */}
+        <div className="contact-form">
+          <form>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" />
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" />
+
+            <label>Message</label>
+            <textarea rows="4" placeholder="Write your message..."></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+);
 }
 
 export default Home;

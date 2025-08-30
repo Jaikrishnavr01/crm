@@ -150,6 +150,7 @@
 }
 .form-modern label {
   font-size: 0.9rem;
+  text-align: left;
   color: #444;
 }
 .form-modern input {

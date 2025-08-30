@@ -472,6 +472,7 @@
 
 .contact-form label {
   margin: 10px 0 5px;
+  text-align: left;
   font-size: 0.95rem;
   color: #ddd;
 }
